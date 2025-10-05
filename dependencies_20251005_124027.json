@@ -1,0 +1,411 @@
+{
+  "status": "complete",
+  "dual_mode": true,
+  "current_version": "3.13.0",
+  "target_version": "3.17",
+  "progress": {
+    "version_detected": true,
+    "current_resolved": true,
+    "target_resolved": false,
+    "candidates_built": true,
+    "diff_created": false
+  },
+  "results": {
+    "current": {
+      "summary": {
+        "total_dependencies": 34,
+        "internal_dependencies": 34,
+        "oss_dependencies": 0,
+        "unresolved_count": 0
+      },
+      "upload_candidates": [
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "loglib-spring-starter",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "loglib-core",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "loglib-spring-core",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "loglib-logback-starter",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "loglib-logback",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "ebssh-orchestra-java-kafka-starter",
+          "version": "3.3.7.7",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "ebssh-orchestra-java-distributed-lock-starter",
+          "version": "3.3.7.3",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.atom",
+          "artifact": "atom-spring-boot-starter-core",
+          "version": "3.3.7.5",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.atom",
+          "artifact": "atom-core",
+          "version": "3.3.7.5",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "framework-spring-core",
+          "version": "3.9.7",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "loglib-core",
+          "version": "3.9.7",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "commons-spring-web",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "commons-error",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "authx-core",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "authx-spring-core",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "authx-spring-web-legacy",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "oauth2-client-spring-core",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "oauth2-client-core",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "commons-core",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "framework-spring-core",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "searose-spring-core",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "searose-spring-web",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "framework-spring-web",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "framework-spring-webflux",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh",
+          "artifact": "wf-cloud-tls",
+          "version": "3.2.1",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "platform-service-bom",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "loglib-logback-spring-starter",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "authx-spring-web-starter",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "oauth2-client-spring-web-starter",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "searose-spring-web-starter",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "framework-elastic-starter",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "framework-spring-web-starter",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "framework-spring-webflux-starter",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        },
+        {
+          "group": "com.wellsfargo.ebssh.orchestra",
+          "artifact": "orchestra-mongo-starter",
+          "version": "3.13.0",
+          "type": "lib",
+          "repository_hint": "prod-dev-java",
+          "reason": "internal artifact resolved from on-prem repo not in ALLOWED_SAAS_REPOS",
+          "is_transitive": false,
+          "parents": []
+        }
+      ],
+      "unresolved": []
+    },
+    "target": {
+      "summary": {
+        "total_dependencies": 0,
+        "internal_dependencies": 0,
+        "oss_dependencies": 0,
+        "unresolved_count": 1
+      },
+      "upload_candidates": [],
+      "unresolved": [
+        {
+          "coordinate": "com.wellsfargo.ebssh.orchestraframework:com.wellsfargo.ebssh.orchestraframework.gradle.plugin:3.17",
+          "via": "buildscript",
+          "reason": "Plugin not found in any SaaS repository - searched prod-devin-java, maven-central-proxy-remote, maven-confluent-proxy-remote, gradles-plugin-remote-5",
+          "repository_hint": "prod-dev-java"
+        }
+      ]
+    },
+    "diff": {
+      "added_candidates": [],
+      "removed_candidates": [],
+      "version_changed_candidates": []
+    }
+  },
+  "stats": {
+    "current": {
+      "candidates_count": 34,
+      "oss_ignored_count": 0
+    },
+    "target": {
+      "candidates_count": 0,
+      "oss_ignored_count": 0
+    }
+  },
+  "notes": [
+    "Current version 3.13.0 successfully resolved from on-prem repositories",
+    "Target version 3.17 FAILED TO RESOLVE - plugins not available in SaaS repositories",
+    "Orchestra Framework 3.17 and related plugins must be uploaded to SaaS before upgrade is possible",
+    "All internal Orchestra dependencies from current version need to be uploaded",
+    "Repository hints inferred from Wells Fargo naming conventions (prod-dev-java for on-prem)",
+    "Classified needs_upload by internal && repo not in ALLOWED_SAAS_REPOS",
+    "Found 34 unique internal dependencies requiring upload"
+  ],
+  "errors": [
+    "Unable to resolve target version 3.17: Plugin [id: com.wellsfargo.ebssh.orchestraframework, version: 3.17] was not found in any of the following sources",
+    "Target version analysis incomplete - cannot generate diff"
+  ]
+}
