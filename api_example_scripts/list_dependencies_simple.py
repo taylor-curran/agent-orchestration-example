@@ -276,7 +276,42 @@ def get_java_dependencies(
         api_key: Devin API key (optional, uses env var if not provided)
     
     Returns:
-        Dict with dependency results or None
+        Dict with dependency results or None. The structure depends on whether 
+        target_version is provided:
+        
+        Single mode (target_version=None):
+        - Returns analysis for current version only
+        - Structure: {"results": {"current": {...}}, "stats": {...}, "notes": [...]}
+        
+        Dual mode (target_version provided):
+        - Returns analysis for both current and target versions
+        - Structure: {
+            "dual_mode": true,
+            "current_version": "X.Y.Z",
+            "target_version": "3.17",
+            "results": {
+              "current": {
+                "upload_candidates": [...],
+                "unresolved": [...],
+                "summary": {...}
+              },
+              "target": {
+                "upload_candidates": [...], 
+                "unresolved": [...],
+                "summary": {...}
+              },
+              "diff": {
+                "added_candidates": [...],
+                "removed_candidates": [...],
+                "version_changed_candidates": [...]
+              }
+            },
+            "stats": {"current": {...}, "target": {...}},
+            "notes": [...]
+          }
+        
+        Each upload_candidates entry contains:
+        - group, artifact, version, type, repository_hint, reason, is_transitive, parents
     """
     
     # Get API key
