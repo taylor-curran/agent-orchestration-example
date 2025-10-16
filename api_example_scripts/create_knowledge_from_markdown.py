@@ -122,7 +122,15 @@ def create_knowledge_from_markdown_files(
             continue
         
         # Generate name from filename (remove extension)
-        name = file_path.stem
+        # Include parent directory name if file is in a subdirectory
+        relative_path = file_path.relative_to(directory)
+        if len(relative_path.parts) > 1:
+            # File is in a subdirectory, include parent directory name
+            parent_dir = relative_path.parent.name
+            name = f"{parent_dir}-{file_path.stem}"
+        else:
+            # File is in root directory, use just the filename
+            name = file_path.stem
         
         # Generate trigger description from filename
         trigger_description = f"{trigger_prefix} {name.replace('-', ' ').replace('_', ' ')}"
