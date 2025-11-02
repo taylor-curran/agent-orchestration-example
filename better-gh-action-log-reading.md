@@ -1,4 +1,4 @@
-# 🧩 GitHub Actions: Quick Triage Guide (with generic placeholders)
+# 🧩 GitHub Actions: Quick Triage Guide
 
 Use these commands to investigate a failing GitHub Actions job directly from the CLI — no web UI needed.  
 Replace placeholders like `<org>`, `<repo>`, `<job-id>`, and `<run-id>`.
